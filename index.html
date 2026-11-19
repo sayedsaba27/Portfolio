@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayed Saba Banu | IT Portfolio</title>
+<meta name="description" content="Professional portfolio of Sayed Saba Banu, Computer Science student interested in cybersecurity, software development and technology.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1424;
+  color: #edf1f7;
+  line-height: 1.7;
+}
+
+:root {
+  --gold: #e5bd72;
+  --navy: #0b1424;
+  --card: #142238;
+  --muted: #b4c0d0;
+}
+
+header {
+  background: #101d31;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #293750;
+}
+
+.logo {
+  color: var(--gold);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+.hero {
+  min-height: 520px;
+  padding: 110px 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(120deg, #0b1424, #1b304d);
+}
+
+.tag {
+  color: var(--gold);
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 6vw, 62px);
+  margin: 15px 0;
+}
+
+.hero h2 {
+  color: var(--gold);
+  font-size: clamp(19px, 3vw, 27px);
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 700px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--gold);
+  color: #101827;
+  padding: 12px 23px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 8px 8px 0 0;
+}
+
+.btn:hover {
+  background: white;
+}
+
+section {
+  padding: 75px 9%;
+}
+
+.section-title {
+  color: var(--gold);
+  font-size: 30px;
+  margin-bottom: 28px;
+}
+
+.section-intro {
+  color: var(--muted);
+  max-width: 850px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #2b3c55;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.card p, .card li {
+  color: var(--muted);
+}
+
+.card ul {
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.skill {
+  background: var(--card);
+  border: 1px solid #34445b;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  color: var(--gold);
+  font-weight: bold;
+}
+
+.highlight {
+  color: var(--gold);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 15px;
+  background: #101d31;
+  color: var(--muted);
+}
+
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+@media(max-width: 650px) {
+  header {
+    justify-content: center;
+  }
+  nav {
+    justify-content: center;
+    gap: 12px;
+  }
+  section {
+    padding: 55px 6%;
+  }
+  .hero {
+    padding: 85px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">SAYED SABA BANU</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <span class="tag">COMPUTER SCIENCE STUDENT | IT ENTHUSIAST</span>
+  <h1>Hello, I'm <span class="highlight">Sayed Saba Banu</span></h1>
+  <h2>Aspiring Cybersecurity & Software Development Professional</h2>
+  <p>
+    Passionate about technology, artificial intelligence, web development
+    and continuous learning. Exploring opportunities to grow in the IT industry.
+  </p>
+  <div>
+    <a href="#about" class="btn">Explore My Portfolio</a>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</div>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="card">
+    <p>
+      I am Sayed Saba Banu, a Third Year B.Sc. Computer Science student
+      at Royal College of Arts, Science and Commerce.
+      I have a strong interest in technology, software development,
+      cybersecurity and artificial intelligence.
+    </p>
+    <br>
+    <p>
+      Alongside my academics, I have gained professional workplace
+      exposure at Enfuse through proctoring-related work and part-time
+      Trainee Associate work involving DnD tagging using AI-powered tools.
+      These experiences have helped me develop responsibility,
+      attention to detail and an understanding of AI-assisted workflows.
+    </p>
+    <br>
+    <p>
+      I believe in continuous learning, practical experience and
+      improving my technical abilities to build a successful career
+      in the IT industry.
+    </p>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="card">
+    <h3>Bachelor of Science – Computer Science</h3>
+    <p>Royal College of Arts, Science and Commerce</p>
+    <p>Third Year | Academic Year 2026–2027</p>
+    <p>Semester 4 SGPA: <span class="highlight">8.64</span></p>
+    <p>Academic interests: Programming, Web Technologies,
+    Database Management, Artificial Intelligence and Computer Science.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+  <p class="section-intro">
+    Practical workplace exposure and learning through my professional
+    experience at Enfuse.
+  </p>
+
+  <div class="card">
+    <h3>Enfuse – Proctoring Work</h3>
+    <p class="highlight">Proctoring-related Professional Experience</p>
+    <ul>
+      <li>Exposure to examination proctoring activities.</li>
+      <li>Following assigned instructions and work procedures.</li>
+      <li>Maintaining attention to detail and responsibility.</li>
+      <li>Developing professional communication and time management.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Enfuse – Part-Time Trainee Associate</h3>
+    <p class="highlight">Department: DnD Tagging</p>
+    <ul>
+      <li>Performed data tagging activities using AI-powered tools.</li>
+      <li>Worked with assigned data and document-related tagging tasks.</li>
+      <li>Followed tagging guidelines and focused on accuracy.</li>
+      <li>Gained exposure to AI-assisted data processing workflows.</li>
+      <li>Developed concentration, productivity and task management skills.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Technical Skills</h2>
+  <p class="section-intro">
+    My current technical knowledge and practical exposure.
+  </p>
+  <div class="grid">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">Python – Basics</div>
+    <div class="skill">MySQL – Academic Exposure</div>
+    <div class="skill">Flask – Academic Exposure</div>
+    <div class="skill">AI-Powered Tools</div>
+    <div class="skill">Data Tagging</div>
+    <div class="skill">Web Development</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Academic Projects</h2>
+  <div class="card">
+    <h3>School Management System</h3>
+    <p class="highlight">Web-Based School Administration System</p>
+    <p>
+      An academic project designed to understand how digital
+      technology can simplify school administration and management.
+    </p>
+    <br>
+    <p><strong>Technologies:</strong> HTML, CSS, Python, Flask,
+    MySQL and Jinja.</p>
+    <ul>
+      <li>Admin, Teacher and Student modules.</li>
+      <li>Student and teacher record management.</li>
+      <li>Attendance management.</li>
+      <li>Examinations, marks and report cards.</li>
+      <li>Timetables, notices and assignments.</li>
+      <li>Study materials and learning resources.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2 class="section-title">Certifications & Learning</h2>
+  <div class="card">
+    <ul>
+      <li>Front-End Web Development Certificate.</li>
+      <li>Great Learning – Completed Courses (14 November 2024).</li>
+      <li>Natural Language Processing (NLP) Seminar – 2025.</li>
+    </ul>
+    <p style="margin-top:15px;">
+      Committed to continuous learning and expanding my knowledge
+      through technical courses, certifications and practical work.
+    </p>
+  </div>
+</section>
+
+<section id="goals">
+  <h2 class="section-title">Career Interests & Future Goals</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Cybersecurity</h3>
+      <p>
+        Interested in learning information security, network security,
+        cyber threats and digital protection.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Software Development</h3>
+      <p>
+        Interested in programming, web technologies and building
+        practical software applications.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Banking Technology</h3>
+      <p>
+        Interested in how technology supports banking systems,
+        digital infrastructure and information security.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>My Long-Term Ambition</h3>
+    <p>
+      My ambition is to build a successful career in the IT sector
+      and work towards technology-related opportunities at reputed
+      institutions such as the Reserve Bank of India (RBI).
+      I aim to strengthen my technical knowledge through learning,
+      internships and practical experience.
+    </p>
+  </div>
+</section>
+
+<section id="strengths">
+  <h2 class="section-title">Personal Strengths</h2>
+  <div class="grid">
+    <div class="skill">Willingness to Learn</div>
+    <div class="skill">Teamwork</div>
+    <div class="skill">Time Management</div>
+    <div class="skill">Problem-Solving</div>
+    <div class="skill">Adaptability</div>
+    <div class="skill">Attention to Detail</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Let's Connect</h2>
+  <div class="card">
+    <p>
+      I am open to learning opportunities, IT internships,
+      entry-level opportunities and professional connections
+      in the technology industry.
+    </p>
+    <br>
+    <p><strong>LinkedIn:</strong>
+      <a class="highlight" href="https://linkedin.com/in/sayed-saba-8534b0363/"
+      target="_blank">Visit My LinkedIn</a>
+    </p>
+    <p><strong>GitHub:</strong>
+      <a class="highlight" href="https://github.com/sayedsaba27"
+      target="_blank">Visit My GitHub</a>
+    </p>
+    <p><strong>Email:</strong> Add your professional email address</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Sayed Saba Banu | Personal IT Portfolio</p>
+  <p>Designed with passion for technology and continuous learning.</p>
+</footer>
+
+</body>
+</html>
